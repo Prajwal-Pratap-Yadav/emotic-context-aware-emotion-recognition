@@ -1,6 +1,6 @@
 phase,configuration,mean_map_percent,sd_map_percent,comparison,delta_map_points,confidence_interval_95_percent,statistical_test,p_value,notes
 A,reproduced_baseline,38.51,0.07,,,,,,"38.52 cited as reported baseline value"
-A,person_region_geometry_inputs,38.70,0.09,Phase A baseline,+0.19,,,,,"Reported higher in all five paired seeds"
+A,person_region_geometry_inputs,38.70,0.09,Phase A baseline,+0.19,,,,"Reported higher in all five paired seeds"
 B,augmentation,38.77,0.24,matched_control,-0.10,,"paired t-test",0.163,"No statistically significant improvement reported"
 B,matched_control,38.87,0.22,,,,,,"Reference for augmentation comparison"
 B,partial_encoder_finetuning,38.48,0.23,,,,,,"Reported Phase B configuration"
