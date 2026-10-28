@@ -218,3 +218,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Research datasets and generated artifacts (keep out of Git)
+data/
+datasets/
+cache/
+outputs/
+results/raw/
+checkpoints/
+weights/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.onnx
+
+# Experiment trackers and logs
+wandb/
+mlruns/
+runs/
+logs/
+
+# Local secrets and machine-specific files
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
