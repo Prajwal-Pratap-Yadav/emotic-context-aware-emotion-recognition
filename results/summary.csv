@@ -1,0 +1,10 @@
+phase,configuration,mean_map_percent,sd_map_percent,comparison,delta_map_points,confidence_interval_95_percent,statistical_test,p_value,notes
+A,reproduced_baseline,38.51,0.07,,,,,,"38.52 cited as reported baseline value"
+A,person_region_geometry_inputs,38.70,0.09,Phase A baseline,+0.19,,,,,"Reported higher in all five paired seeds"
+B,augmentation,38.77,0.24,matched_control,-0.10,,"paired t-test",0.163,"No statistically significant improvement reported"
+B,matched_control,38.87,0.22,,,,,,"Reference for augmentation comparison"
+B,partial_encoder_finetuning,38.48,0.23,,,,,,"Reported Phase B configuration"
+C,baseline,38.85,0.15,,,,,,"GEQ comparison baseline"
+C,GEQ,38.87,0.08,Phase C baseline,+0.02,"[-0.15, +0.18]",,,"Reported 95% CI for difference"
+C,LoRA,38.96,0.11,,,,,,"Parameter-efficient adaptation"
+C,GEQ_plus_LoRA,39.10,0.23,Phase C fully fine-tuned baseline,+0.25,"[-0.05, +0.56]",,,"Reported non-inferiority margin: 0.30 mAP points"
