@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite this software repository."
+title: "Context-Aware Emotion Recognition on EMOTIC"
+type: software
+authors:
+  - family-names: Yadav
+    given-names: "Prajwal Pratap"
+repository-code: "https://github.com/Prajwal-Pratap-Yadav/emotic-context-aware-emotion-recognition"
+license: MIT
