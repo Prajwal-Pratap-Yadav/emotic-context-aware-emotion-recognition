@@ -15,6 +15,7 @@ Research notebooks for context-aware, multilabel emotion recognition on the **EM
 
 | File | Purpose |
 |---|---|
+| [Consolidated Python source](emotic-all-phases.py) | Single-file export of the code cells from all three notebooks, grouped by phase |
 | [Phase A — baseline, no augmentation](emotic-phasea-v7-without-aug.ipynb) | Baseline reproduction, annotation/preprocessing checks, visual-feature inputs, and seed-based comparisons |
 | [Phase B — augmentation](emotic-phaseb-augmentation.ipynb) | Longer-schedule and augmentation comparisons, test-time mirroring, and partial encoder fine-tuning |
 | [Phase C — GEQ](emotic-phasec-geq.ipynb) | Grounded Emotion Queries, alternative multilabel heads, ablations, and LoRA experiments |
@@ -24,6 +25,8 @@ Research notebooks for context-aware, multilabel emotion recognition on the **EM
 | [Citation metadata](CITATION.cff) | Repository citation metadata |
 
 The notebooks are currently kept at the repository root so their existing paths and execution records are not changed during initial cleanup.
+
+The consolidated Python source is provided for convenient review and searching. It preserves the notebook code-cell source in phase order and excludes saved cell outputs. It is a flat export, so the original notebooks remain the recommended reference for faithful phase-by-phase execution.
 
 ## Method at a glance
 
